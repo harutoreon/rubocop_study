@@ -1,3 +1,7 @@
+# Rubyのバージョン指定
+AllCops:
+  TargetRubyVersion: 3.1
+
 # クラスとモジュールにトップレベルのドキュメントを強制しない
 Style/Documentation:
   Enabled: false
