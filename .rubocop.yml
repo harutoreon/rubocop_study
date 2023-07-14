@@ -1,1 +1,20 @@
-inherit_from: .rubocop_todo.yml
+# クラスとモジュールにトップレベルのドキュメントを強制しない
+Style/Documentation:
+  Enabled: false
+
+# マジックコメント #frozen_string_literal: true を強制しない
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+# 配列やハッシュなどのリテラルは凍結されていることを強制しない
+Style/MutableConstant:
+  Enabled: false
+
+# シンボルで構成された配列リテラルは %i 記法を強制しない
+Style/SymbolArray:
+  Enabled: false
+
+# ソースコード内の末尾の空白行と最後の改行を強制する。
+Layout/TrailingEmptyLines:
+  Enabled: false
+
