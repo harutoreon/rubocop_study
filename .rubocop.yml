@@ -20,7 +20,7 @@ Style/MutableConstant:
 Style/SymbolArray:
   Enabled: false
 
-# ソースコード内の末尾の空白行と最後の改行を強制する。
+# ソースコード内の末尾の空白行と最後の改行を強制しない。
 Layout/TrailingEmptyLines:
   Enabled: false
 
