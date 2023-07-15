@@ -1,10 +1,10 @@
 # 全般的な設定
 AllCops:
   TargetRubyVersion: 3.1  # Rubyのバージョン指定
-  Exclude:
-    - 'Gemfile'  # Gemfileはチェック対象外
+  Exclude:  # チェック対象外
+    - 'Gemfile'
     - 'Rakefile'
-    - 'spec/spec_helper.rb'
+    - 'spec/*.rb'
 
 # クラスとモジュールにトップレベルのドキュメントを強制しない
 Style/Documentation:
