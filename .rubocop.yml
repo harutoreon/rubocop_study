@@ -3,6 +3,7 @@ AllCops:
   TargetRubyVersion: 3.1  # Rubyのバージョン指定
   Exclude:
     - 'Gemfile'  # Gemfileはチェック対象外
+    - 'Rakefile'
 
 # クラスとモジュールにトップレベルのドキュメントを強制しない
 Style/Documentation:
