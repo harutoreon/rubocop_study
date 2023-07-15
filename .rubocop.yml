@@ -4,6 +4,7 @@ AllCops:
   Exclude:
     - 'Gemfile'  # Gemfileはチェック対象外
     - 'Rakefile'
+    - 'spec/spec_helper.rb'
 
 # クラスとモジュールにトップレベルのドキュメントを強制しない
 Style/Documentation:
