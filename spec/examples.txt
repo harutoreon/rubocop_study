@@ -1,6 +1,13 @@
-example_id                 | status | run_time        |
--------------------------- | ------ | --------------- |
-./spec/gate_spec.rb[1:1:1] | passed | 0.00178 seconds |
-./spec/gate_spec.rb[1:1:2] | passed | 0.00014 seconds |
-./spec/gate_spec.rb[1:1:3] | passed | 0.0002 seconds  |
-./spec/gate_spec.rb[1:2:1] | passed | 0.00014 seconds |
+example_id                    | status | run_time        |
+----------------------------- | ------ | --------------- |
+./spec/fizz_buzz_spec.rb[1:1] | passed | 0.00008 seconds |
+./spec/fizz_buzz_spec.rb[1:2] | passed | 0.00017 seconds |
+./spec/fizz_buzz_spec.rb[1:3] | passed | 0.00025 seconds |
+./spec/fizz_buzz_spec.rb[1:4] | passed | 0.00009 seconds |
+./spec/fizz_buzz_spec.rb[1:5] | passed | 0.00014 seconds |
+./spec/fizz_buzz_spec.rb[1:6] | passed | 0.00008 seconds |
+./spec/fizz_buzz_spec.rb[1:7] | passed | 0.00222 seconds |
+./spec/gate_spec.rb[1:1:1]    | passed | 0.00408 seconds |
+./spec/gate_spec.rb[1:1:2]    | passed | 0.00016 seconds |
+./spec/gate_spec.rb[1:1:3]    | passed | 0.00012 seconds |
+./spec/gate_spec.rb[1:2:1]    | passed | 0.00012 seconds |

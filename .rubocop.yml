@@ -27,3 +27,10 @@ Style/SymbolArray:
 Layout/TrailingEmptyLines:
   Enabled: false
 
+# 比較演算子の使用を許可する
+Style/NumericPredicate:
+  Enabled: false
+
+# メソッドのパラメータ名をチェックしない
+Naming/MethodParameterName:
+  Enabled: false
