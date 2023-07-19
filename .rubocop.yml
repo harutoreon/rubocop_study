@@ -34,3 +34,15 @@ Style/NumericPredicate:
 # メソッドのパラメータ名をチェックしない
 Naming/MethodParameterName:
   Enabled: false
+
+# メソッドの長さが最大値を超えているかどうかを確認しない
+Metrics/MethodLength:
+  Enabled: false
+
+# シンボルをprocとして使用することを強制しない
+Style/SymbolProc:
+  Enabled: false
+
+# %w() 構文を使用していない、単語のような文字列で構成される配列リテラルをチェックしない
+Style/WordArray:
+  Enabled: false
