@@ -1,7 +1,7 @@
 require './spec/spec_helper'
 require './lib/effects'
 
-RSpec.describe 'effects spec' do
+RSpec.describe 'EffectsSpec' do
   context 'when reverse method' do
     it 'returns ybuR si !nuf' do
       effect = Effects.reverse

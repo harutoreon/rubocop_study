@@ -2,7 +2,7 @@ require './spec/spec_helper'
 require './lib/word_synth'
 require './lib/effects'
 
-RSpec.describe 'word synth spec' do
+RSpec.describe 'WordSynthSpec' do
   context 'when play without effects' do
     it 'returns Ruby is fun!' do
       synth = WordSynth.new

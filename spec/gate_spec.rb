@@ -2,7 +2,7 @@ require './spec/spec_helper'
 require './lib/gate'
 require './lib/ticket'
 
-RSpec.describe 'ticket gate spec' do
+RSpec.describe 'TicketGateSpec' do
   let(:umeda) { Gate.new(:umeda) }
   let(:juso) { Gate.new(:juso) }
   let(:mikuni) { Gate.new(:mikuni) }
